@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>dog adoption</title>
-        <link ref="stylesheet" type="text/css" href="styles/styles.css">
+        <title>checkout</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
     </head>
     <body>
         <header class="dog-head">
@@ -13,8 +13,8 @@
             <p>Seattle's premiere dog adoption agency</p>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="dogs.html">Dogs</a></li>
+                    <li><a href="index.html">Home /</a></li>
+                    <li><a href="dogs.html">Dogs /</a></li>
                     <li><a href="blog.html">Blog</a></li>
                 </ul>
             </nav>
@@ -24,22 +24,24 @@
             </form>
             </div>
         </header>
-        <h1>Checkout</h1>
+        <h1 class="head-one">Checkout</h1>
+        <section class="position">
         <form>
             <label>Name
-                <input type="text" name="clientName">
+                <input type="text" name="clientName" class="container-input">
             </label>
             <label>Email Address 
-                <input type="text" name="clientEmail">
+                <input type="text" name="clientEmail" class="container-input">
             </label>
             <label>Street Address 
-                <input type="text" name="clientAddress">
+                <input type="text" name="clientAddress" class="container-input">
             </label>
             <label>City
-                <input type="text" name="clientCity">
+                <input type="text" name="clientCity" class="container-three flower">
             </label>
             <label for="state">State</label>
-            <select name="countryState" id="state">
+            <select name="countryState" id="state" class="container-four flower">
+                <option value=""></option>
                 <option value="Alabama">AL</option>
                 <option value="Alaska">AK</option>
                 <option value="Arizona">AZ</option>
@@ -93,7 +95,7 @@
                 <option value="Wyoming">WY</option>
             </select>
             <label>Zip Code 
-                <input type="text" name="clientZipcode">
+                <input type="text" name="clientZipcode" class="container-five flower">
             </label>
             <fieldset>
                 <legend>First Time Adopter?</legend>
@@ -107,21 +109,23 @@
                 </label>
             </fieldset>
             <label for="location">Pickup Location</label>
-            <select name="location" id="location">
+            <select name="location" id="location" class="container-three">
+                <option value=""></option>
                 <option value="one">One</option>
                 <option value="Two">Two</option>
             </select>
             <p>Dogs Adopted</p>
             <p>Total Adoption Cost</p>
-            <input type="submit" value="submit">
+            <input type="submit" value="Submit" class="small">
         </form>
+        </section>
         <footer class="footer">
-            <img src="images/adoptadog-logo.svg" width="300" alt="Adopt a dog logo">
+            <img src="images/adoptadog-logo.svg" width="300" alt="Adopt a dog logo" class="space">
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit </p>
             <p>facilisis per vel ultricies libero neque nulla urna molestie </p>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="dogs.html">Dogs</a></li>
+                <li><a href="index.html">Home /</a></li>
+                <li><a href="dogs.html">Dogs /</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <p> &copy;2018 Adoptadog, LLC | Seattle, WA</p>
