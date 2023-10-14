@@ -17,20 +17,32 @@
 .blue-text {
     color: rgb(46, 72, 106);
 }
-h1, h3 {
-    color: rgb(46, 72, 106);
-    font-weight: bold;
-}
 button[type=submit] {
     background-color: rgb(138, 196, 37);
     color: white;
     border-style: none;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1, h3 {
+    color: rgb(46, 72, 106);
+    font-weight: bold;
+}
+h3 {
+    font-size: 150%;
+}
+header p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 /* Nav section*/
 nav {
     background-color: rgb(210, 213, 212);
     width: 100%;
     height: 60px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: small;
     font-weight: bold;
 }
 nav a {
@@ -60,6 +72,7 @@ ul {
     list-style: none;
 }
 footer a {
+    font-family: 'Work Sans', sans-serif;
     color: white;
     text-decoration: none;
 } 
@@ -149,10 +162,14 @@ header p {
 input, select {
     font-family: inherit;
     font-size: 100%;
+    font-weight: 900;
     box-sizing: border-box;
     display: block;
     margin: 1rem; 
     cursor: pointer;
+}
+p.note {
+    font-family: inherit;
 }
 input[type=submit] {
     background-color: rgb(138, 196, 37);
@@ -161,6 +178,7 @@ input[type=submit] {
 }
 .small {
     width: 15%;
+    height: 40px;
 }
 fieldset {
     border: none;
@@ -192,12 +210,12 @@ fieldset input {
     left: 13%;
     color: rgb(46, 72, 106);
 }
-[class*="grey"] {
+button.grey {
     background-color: rgb(210, 213, 212);
     border-style: none;
     color:rgb(46, 72, 106);
-    width: 10%;
-    height: 25px;
+    width: 13%;
+    height: 30px;
 }
 .centering {
     position: relative;
