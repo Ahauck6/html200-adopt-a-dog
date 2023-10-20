@@ -2,39 +2,46 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>dog adoption</title>
+        <title>checkout</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
     </head>
     <body>
-        <header>
+        <header class="dog-head">
+            <div class="logo">
             <img src="images/adoptadog-logo.svg" width="400" alt="Adopt a dog logo">
+            </div>
             <p>Seattle's premiere dog adoption agency</p>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="dogs.html">Dogs</a></li>
+                    <li><a href="index.html">Home /</a></li>
+                    <li><a href="dogs.html">Dogs /</a></li>
                     <li><a href="blog.html">Blog</a></li>
                 </ul>
             </nav>
+            <div class="checkout">
             <form action="checkout.html">
                 <button type="submit">Checkout</button>
             </form>
+            </div>
         </header>
-        <h1>Checkout</h1>
+        <h1 class="head-one">Checkout</h1>
+        <div class="position">
         <form>
-            <label>Name
-                <input type="text" name="clientName">
+            <label><strong>Name</strong>
+                <input type="text" name="clientName" class="container-input">
             </label>
-            <label>Email Address 
-                <input type="text" name="clientEmail">
+            <label><strong>Email Address</strong>
+                <input type="text" name="clientEmail" class="container-input">
             </label>
-            <label>Street Address 
-                <input type="text" name="clientAddress">
+            <label><strong>Street Address</strong>
+                <input type="text" name="clientAddress" class="container-input">
             </label>
-            <label>City
-                <input type="text" name="clientCity">
+            <label><strong>City</strong>
+                <input type="text" name="clientCity" class="container-three flower">
             </label>
-            <label for="state">State</label>
-            <select name="countryState" id="state">
+            <label for="state"><strong>State</strong></label>
+            <select name="countryState" id="state" class="container-four flower">
+                <option value=""></option>
                 <option value="Alabama">AL</option>
                 <option value="Alaska">AK</option>
                 <option value="Arizona">AZ</option>
@@ -87,11 +94,11 @@
                 <option value="Wisconsin">WI</option>
                 <option value="Wyoming">WY</option>
             </select>
-            <label>Zip Code 
-                <input type="text" name="clientZipcode">
+            <label><strong>Zip Code</strong>
+                <input type="text" name="clientZipcode" class="container-five flower">
             </label>
             <fieldset>
-                <legend>First Time Adopter?</legend>
+                <legend><strong>First Time Adopter?</strong></legend>
                 <label>
                     <input type="radio" name="adopter" value="yes">
                     Yes
@@ -101,22 +108,24 @@
                     No
                 </label>
             </fieldset>
-            <label for="location">Pickup Location</label>
-            <select name="location" id="location">
+            <label for="location"><strong>Pickup Location</strong></label>
+            <select name="location" id="location" class="container-three">
+                <option value=""></option>
                 <option value="one">One</option>
                 <option value="Two">Two</option>
             </select>
-            <p>Dogs Adopted</p>
-            <p>Total Adoption Cost</p>
-            <input type="submit" value="submit">
+            <p class="note"><strong>Dogs Adopted</strong></p>
+            <p class="note"><strong>Total Adoption Cost</strong></p>
+            <input type="submit" value="Submit" class="small">
         </form>
-        <footer>
-            <img src="images/adoptadog-logo.svg" width="400" alt="Adopt a dog logo">
+    </div>
+        <footer class="footer">
+            <img src="images/adoptadog-logo.svg" width="300" alt="Adopt a dog logo" class="space">
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit </p>
             <p>facilisis per vel ultricies libero neque nulla urna molestie </p>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="dogs.html">Dogs</a></li>
+                <li><a href="index.html">Home /</a></li>
+                <li><a href="dogs.html">Dogs /</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <p> &copy;2018 Adoptadog, LLC | Seattle, WA</p>
