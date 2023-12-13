@@ -135,7 +135,7 @@ header p {
 }
 .container-flexs {
     display: flex;
-    gap: auto auto;
+    gap: 0 0;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
@@ -258,7 +258,41 @@ button.grey {
     min-height: 100vh;
     margin-right: 3rem;
 }
+.aside-box {
+    box-sizing: border-box;
+    margin: 1rem 0rem;
+}
 aside a {
     text-decoration: none;
     color:aqua;
+}
+@media screen and (max-width: 576px) {
+    .container-flexs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box-indexs {
+        display: block;
+        width: 100%;
+    }
+    aside {
+        display: none;
+    }
+    .container-two {
+        margin: 1rem 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .two-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    aside {
+        display: none;
+    }
 }
