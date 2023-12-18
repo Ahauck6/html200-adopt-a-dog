@@ -1,5 +1,10 @@
 .dog-head {
-    background-color: rgb(46, 72, 106); 
+    width: 100%;
+    height:250px;
+    background: radial-gradient(yellow, rgb(46, 72, 106) 20%);
+    background-image: url('../images/header-image.jpg');
+    background-size: cover;
+    background-position: right top;
 }
 .logo {
    position: relative;
