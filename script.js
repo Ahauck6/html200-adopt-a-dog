@@ -46,7 +46,7 @@ function stellaDog() {
     alert("Stella\nBreed: Chihuahua\nCost to Adopt: $123.45")
 }
 
-
+/*Javascript cart total*/
 let adoptionTotal = 0
 
 function adoptionCost() {
@@ -54,5 +54,56 @@ function adoptionCost() {
     alert("$" + adoptionTotal)
 }
 
+/*JQuery cart total index page */
+let costTotal = 0
+$(document).ready(function(){
+    $('.adopt').click(function(){ 
+        costTotal += 123.45;
+        alert('Adoption Total: $' + costTotal);
+        $('#cart-total').text(costTotal);
+    })
+})
 
+/*Dog tile effect*/
+$(function() {
+    $('.box-indexs, .box-index').hover(function() {
+        $(this).css('box-shadow', '10px 10px 5px #777');
+    } , function () {
+        $(this).css('border-color', 'rgb(138, 196, 37)');
+    })
+}) 
+
+/*Form submission*/
+$('.checkout-form').submit(function(event){
+    event.preventDefault();
+
+    var name = $('#name').val();
+    var email = $('#email').val();
+    var street = $('#address').val();
+    var city = $('#city').val();
+    var state = $('#state').val();
+    var zip = $('#zip').val();
+    var firstTime = $('input[class="yes"]:checked').val();
+    var notFirstTime = $('input[class="no"]:checked').val();
+    var location = $('#location').val();
+
+    console.log(`Name: ${name}`);
+    console.log(`Email Address: ${email}`);
+    console.log(`Street Address: ${street}`);
+    console.log(`City: ${city}`);
+    console.log(`State: ${state}`);
+    console.log(`Zip Code: ${zip}`);
+
+    if (firstTime) {
+        console.log(`First Time Adopter: ${firstTime}`);
+    }
+
+   else if (notFirstTime) {
+        console.log(`Not A First Time Adopter: ${notFirstTime}`);
+    }
+
+    console.log(`Pickup Location: ${location}`);
+
+    alert('Thank you. The form information has been received.');
+});
 

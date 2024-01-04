@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>checkout</title>
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
     </head>
     <body>
         <header class="dog-head">
@@ -27,18 +31,18 @@
         </header>
         <h1 class="head-one">Checkout</h1>
         <div class="position">
-        <form>
+        <form class="checkout-form">
             <label><strong>Name</strong>
-                <input type="text" name="clientName" class="container-input">
+                <input id="name" type="text" name="clientName" class="container-input">
             </label>
             <label><strong>Email Address</strong>
-                <input type="text" name="clientEmail" class="container-input">
+                <input id="email" type="text" name="clientEmail" class="container-input">
             </label>
             <label><strong>Street Address</strong>
-                <input type="text" name="clientAddress" class="container-input">
+                <input id="address" type="text" name="clientAddress" class="container-input">
             </label>
             <label><strong>City</strong>
-                <input type="text" name="clientCity" class="container-three flower">
+                <input id="city" type="text" name="clientCity" class="container-three flower">
             </label>
             <label for="state"><strong>State</strong></label>
             <select name="countryState" id="state" class="container-four flower">
@@ -96,16 +100,16 @@
                 <option value="Wyoming">WY</option>
             </select>
             <label><strong>Zip Code</strong>
-                <input type="text" name="clientZipcode" class="container-five flower">
+                <input id="zip" type="text" name="clientZipcode" class="container-five flower">
             </label>
             <fieldset>
                 <legend><strong>First Time Adopter?</strong></legend>
                 <label>
-                    <input type="radio" name="adopter" value="yes">
+                    <input class="yes" type="radio" name="adopter" value="yes">
                     Yes
                 </label>
                 <label>
-                    <input type="radio" name="adopter" value="no">
+                    <input class="no" type="radio" name="adopter" value="no">
                     No
                 </label>
             </fieldset>
