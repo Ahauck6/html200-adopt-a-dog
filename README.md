@@ -1,0 +1,7 @@
+Adopt-a-dog was created in hopes of connecting furry friends to their new loving homes in the Seattle area. Prospective adopters are able to find their new furry companions using our intuitive and user-friendly website built through graceful degradation. Our website's easy navigation, utilization, and comprehension was achieved through responsive design, HTML, CSS, Javascript, and JQuery. 
+
+Index page provides immediate representation of available dogs, with their description and adoption fee neatly displayed. From the Index page there is easy navigation to a completed list of available dogs, blog posts, and our checkout form to begin the adoption process. Our blog page provides helpful articles for training tips and guidance for incorporating your new furry friend into an active lifestyle. Adopt-a-dog also offers interactive dog tiles to keep viewers engaged by using JQuery to add a box-shadow effect and javascript to create a click handler that alerts the user of dog details when their photos are clicked. 
+
+Runs on all major browsers such as Safari, Google Chrome, and Microsoft Edge. Our webpage layout adjusts using responsive design depending on viewport size, changing from three columns to one on mobile devices(576px) and hiding the sidebar on anything smaller than a tablet (768px). 
+
+Our goal was to ease the adoption process for all parties involved by designing a website to be approachable and engaging whether you're tech savvy or turning a computer on for the first time.
