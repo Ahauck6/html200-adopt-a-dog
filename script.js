@@ -77,15 +77,15 @@ $(function() {
 $('.checkout-form').submit(function(event){
     event.preventDefault();
 
-    var name = $('#name').val();
-    var email = $('#email').val();
-    var street = $('#address').val();
-    var city = $('#city').val();
-    var state = $('#state').val();
-    var zip = $('#zip').val();
-    var firstTime = $('input[class="yes"]:checked').val();
-    var notFirstTime = $('input[class="no"]:checked').val();
-    var location = $('#location').val();
+    const name = $('#name').val();
+    const email = $('#email').val();
+    const street = $('#address').val();
+    const city = $('#city').val();
+    const state = $('#state').val();
+    const zip = $('#zip').val();
+    const firstTime = $('input[class="yes"]:checked').val();
+    const notFirstTime = $('input[class="no"]:checked').val();
+    const location = $('#location').val();
 
     console.log(`Name: ${name}`);
     console.log(`Email Address: ${email}`);

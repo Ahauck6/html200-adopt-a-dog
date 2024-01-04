@@ -1,0 +1,35 @@
+TESTING
+
+Adopt-a-dog was tested on three major browsers:
+-Google Chrome
+-Safari
+-Microsoft Edge 
+
+Varying devices and viewport sizes tested on:
+-Chrome Devtools
+-iphone se, iphone 14
+-HP Pavilion x360
+
+Accessibility:
+Website's color combinations were tested using a contrast checker to ensure WCAG compliance, assuring 
+accessibility for visually impaired users.
+
+Improvements made to ensure site quality based on testing results:
+-Adjusted padding and margins so dog tiles would fit the screen appropriately on viewports under 576px.
+-Adjusted button sizes to be easier to click on devices under 576px.
+
+
+USER PERSONA
+
+Name: Lucia
+Age: 28
+Lives: Seattle
+Occupation: Bartender
+Background: Lucia spent her childhood surrounded by dogs and now as an adult is hoping to provide a home filled with love to a new furry companion. 
+Lucia enjoys climbing and hiking in her spare time and is looking forward to spending time outside enjoying these activities with her new furry friend. 
+Seeing that Lucia spends most of her time outside, the devices she uses for browsing are all portable, such as an iphone or small laptop. 
+Since Lucia lives in an apartment she is hoping to adopt a smaller sized dog. She has no preference on age and is open to adopting an energetic puppy or a docile senior dog. 
+Lucia does not have a lot of tech experience nor frequently updates devices to the latest model. 
+She appreciates websites that are user-friendly with the dog's description and cost listed upfront. 
+Browsers Used: Safari, Google Chrome
+Devices Used: iphone11, HP Laptop 2021 
